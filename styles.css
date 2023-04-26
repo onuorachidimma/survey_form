@@ -2,17 +2,27 @@ body{
   /* padding: 20px; */
 
   color: white;
-  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-image: url(https://media.istockphoto.com/id/1067302478/photo/traditional-tajine-dishes-couscous-and-fresh-salad-on-rustic-wooden-table-tagine-lamb-meat.jpg?s=612x612&w=0&k=20&c=2G8Q9JrTgnA8WpaR0jxiPDHXzU2uZYgzbIuEFt-k4hs=);
   background-size: cover;
-  /* background: darkblue; */
+  
   padding-top: 50px;
   font-family: 'Poppins', sans-serif;
+  font-size: large;
 }
 
 header{
   text-align: center;
 }
 
+h1{
+  margin-bottom: 0;
+}
+#description{
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: lighter;
+  font-style: italic;
+}
 /* main{
   ;
 } */
@@ -20,9 +30,11 @@ header{
   margin: auto;
   width: 90%;
   max-width: 700px;
+  border-radius: 5px;
   /* background-color: #1b1b32; */
-  padding: 2px;
+  padding: 20px;
   background-color: #1b1b32
+
 }
 
 #survey-form{
@@ -31,17 +43,86 @@ header{
 }
 
 
-.group1 input, select, textarea{
+.group1 input, select, textarea, button{
   display: block;
   width: 100%;
+  margin-top: 5px;
+  
 }
 
 .group2 label, .group4 label{
   display: block;
+  
 }  
 
 #title{
   font-weight: lighter;
 
+}
+
+input, select{
+  height: 40px;
+  border-radius: 5px;
+}
+
+.group1 label{
+  padding-top: 20px;
+}
+
+.group3 p{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.group4 p{
+  margin-top: 40px;
+}
+
+#name, #email, #number{
+  margin-bottom: 25px;
+}
+
+.group5 p{
+  margin-bottom: 10px;
+}
+ 
+input::placeholder {
+  text-indent: 10px;
+  font-size: medium;
+}
+
+button{
+  margin-top: 25px;
+  height: 40px;
+  font-size: large;
+}
+
+.option{
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+textarea{
+  height: 100px;
+}
+select{
+  font-size: medium;
+  color: grey;
+}
+
+textarea::placeholder{
+  font-size: large;
+}
+
+.in{
+  width: unset;
+  margin-right: 0.5em ;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
+  vertical-align: middle;
+}
+fieldset{
+  padding-bottom: 0;
 }
 
